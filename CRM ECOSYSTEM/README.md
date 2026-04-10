@@ -190,3 +190,4 @@ resources/	Vue components, layouts, pages, assets (images, icons, styles)
 routes/	Web and API route definitions
 storage/	Logs, cache, and user-generated files
 tests/	PHPUnit test cases
+
