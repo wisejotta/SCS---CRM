@@ -12,6 +12,11 @@
 - **Communications**: SendGrid (email), Twilio (SMS)
 - **Marketing**: Mailchimp integration
 
+### Integration Reference
+For full API/service documentation (external providers, webhook endpoints, and compatibility guidance), see:
+
+- [`API_INTEGRATIONS.md`](./API_INTEGRATIONS.md)
+
 ---
 
 ## Installation

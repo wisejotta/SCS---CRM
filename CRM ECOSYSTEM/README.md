@@ -36,6 +36,13 @@ php artisan migrate
 
 # Start dev server
 yarn dev
+```
+
+## 🔌 API Integrations & Platform Compatibility
+
+For a complete integration matrix (payments, communications, marketing, webhook endpoints, and deployment checklist), see:
+
+- [`API_INTEGRATIONS.md`](./API_INTEGRATIONS.md)
 
 
 
