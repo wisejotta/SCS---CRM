@@ -13,7 +13,7 @@ class AgentBreak extends Model
     protected $fillable = [
         'agent_id',
         'type',
-        'seconds', // TODO:: remove
+        'seconds',
         'active',
     ];
 
