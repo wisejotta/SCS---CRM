@@ -10,7 +10,7 @@ const DefaultLayoutWithVerticalNav = defineAsyncComponent(() => import('./compon
 const { width: windowWidth } = useWindowSize()
 const { appContentLayoutNav, switchToVerticalNavOnLtOverlayNavBreakpoint } = useThemeConfig()
 
-// Remove below composable usage if you are not using horizontal nav layout in your app
+// Keep layout mode responsive: fall back to vertical nav on smaller screens.
 switchToVerticalNavOnLtOverlayNavBreakpoint(windowWidth)
 
 const { layoutAttrs, injectSkinClasses } = useSkins()
