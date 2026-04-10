@@ -1,9 +1,9 @@
-# SCS - CRM System - Complete Documentation
+# FlowState CRM System - Complete Documentation
 
 ## Quick Reference
 
 ### System Overview
-**SCS - CRM** is a full-stack CRM system for Visas Canada immigration services built with Laravel 9 and Vue.js 3.
+**FlowState CRM** is a full-stack CRM system for Visas Canada immigration services built with Laravel 9 and Vue.js 3.
 
 ### Tech Stack
 - **Backend**: Laravel 9, PHP 8.0+, MySQL
@@ -11,6 +11,11 @@
 - **Payments**: Stripe, Square, Authorize.net
 - **Communications**: SendGrid (email), Twilio (SMS)
 - **Marketing**: Mailchimp integration
+
+### Integration Reference
+For full API/service documentation (external providers, webhook endpoints, and compatibility guidance), see:
+
+- [`API_INTEGRATIONS.md`](./API_INTEGRATIONS.md)
 
 ---
 
@@ -213,7 +218,7 @@ $response = Http::post("$baseUrl/xml/v1/request.api", [
 
 ```env
 # App
-APP_NAME="SCS - CRM"
+APP_NAME="FlowState CRM"
 APP_ENV=production
 APP_URL=https://your-domain.com
 

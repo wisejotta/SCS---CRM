@@ -1,8 +1,8 @@
-# SCS CRM  
-_Manage Leads, Automate Tasks, and Streamline Your Sales Process._
+# FlowState CRM  
+_Manage Leads, Automate Tasks, and Keep Revenue Operations in Flow._
 
 ## 📌 Description
-SCS CRM is a full-featured Customer Relationship Management system built with Laravel and Vue 3. It is designed to support dynamic lead tracking, campaign management, user role control, reporting, and task automation for modern business teams.
+FlowState CRM is a full-featured Customer Relationship Management system built with Laravel and Vue 3. It is designed to support dynamic lead tracking, campaign management, user role control, reporting, and task automation for modern business teams.
 
 ## 🚀 Installation
 
@@ -36,6 +36,13 @@ php artisan migrate
 
 # Start dev server
 yarn dev
+```
+
+## 🔌 API Integrations & Platform Compatibility
+
+For a complete integration matrix (payments, communications, marketing, webhook endpoints, and deployment checklist), see:
+
+- [`API_INTEGRATIONS.md`](./API_INTEGRATIONS.md)
 
 
 
@@ -46,10 +53,10 @@ yarn dev
 ...........................................................
 ...........................................................
 
-# SCS - CRM
+# FlowState CRM
 
 ## Project Overview
-The SCS - CRM project is a web application built using Laravel (a PHP framework) and Vue.js (a JavaScript framework). It leverages various modern web development tools and libraries to provide a robust and scalable CRM solution.
+The FlowState CRM project is a web application built using Laravel (a PHP framework) and Vue.js (a JavaScript framework). It leverages various modern web development tools and libraries to provide a robust and scalable CRM solution.
 
 ## Technologies Used
 1. **Backend**:
@@ -183,6 +190,3 @@ resources/	Vue components, layouts, pages, assets (images, icons, styles)
 routes/	Web and API route definitions
 storage/	Logs, cache, and user-generated files
 tests/	PHPUnit test cases
-
-
-

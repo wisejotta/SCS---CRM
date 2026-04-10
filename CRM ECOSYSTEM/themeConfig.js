@@ -9,8 +9,7 @@ import { AppContentLayoutNav, ContentWidth, FooterType, NavbarType } from '@layo
 
 export const { themeConfig, layoutConfig } = defineThemeConfig({
   app: {
-    title: 'Smart Central',
-    // title: 'CRM', // NOTE:: New CRM
+    title: 'FlowState CRM',
     logo: h('div', { innerHTML: logo, style: 'line-height:0; color: rgb(var(--v-global-theme-primary))' }),
     contentWidth: ContentWidth.Boxed,
     contentLayoutNav: AppContentLayoutNav.Vertical,
@@ -19,7 +18,7 @@ export const { themeConfig, layoutConfig } = defineThemeConfig({
     theme: 'light',
     isRtl: false,
     skin: Skins.Default,
-    routeTransition: RouteTransitions.Fade,
+    routeTransition: RouteTransitions['Slide X'],
     iconRenderer: VIcon,
   },
   navbar: {
@@ -34,7 +33,7 @@ export const { themeConfig, layoutConfig } = defineThemeConfig({
   },
   horizontalNav: {
     type: 'sticky',
-    transition: 'slide-y-reverse-transition',
+    transition: 'slide-x-transition',
   },
   icons: {
     chevronDown: { icon: 'tabler-chevron-down' },
