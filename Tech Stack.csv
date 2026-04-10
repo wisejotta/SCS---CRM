@@ -1,0 +1,17 @@
+Technology,Purpose,What You Can Achieve
+React.js,Frontend library for building dynamic UIs,Responsive and interactive web interfaces
+Node.js (Express),Backend runtime environment with a minimalist web framework,REST APIs and backend logic to support frontend
+MongoDB,NoSQL database for flexible JSON-like document storage,Flexible and scalable data handling for fast development
+JWT,Authentication mechanism using encoded tokens,Secure user sessions and route protection
+TailwindCSS,Utility-first CSS framework for rapid UI development,"Consistent, clean, and responsive UI design"
+Firebase (Auth + Firestore + Cloud Functions),"Serverless backend services for auth, DB, and logic",Rapid deployment of full-stack applications
+Next.js,React framework with SSR and SSG capabilities,SEO-friendly and performant web applications
+Shopify API,API for e-commerce store management and data access,Build dropshipping tools or custom storefronts
+Paystack,Online payment processing service for African markets,Secure and localized online payment integration
+WebSockets,Real-time communication between clients and servers,"Live features like chats, notifications, price updates"
+Binance/Luno/VALR APIs,Cryptocurrency trading and data integration APIs,Automated trading bots and crypto monitoring apps
+TradingView Webhooks,Trigger backend actions from trading alerts,Link market movements to app workflows
+PostgreSQL,Relational database with strong consistency and SQL support,Structured data storage for analytics and reports
+Mapbox,API for interactive maps and geolocation services,Track locations and display interactive map data
+GSAP,Animation library for interactive motion effects,Create gamified or animated user interfaces
+WebGL,Browser-based rendering of interactive 2D/3D graphics,"Design immersive, game-like experiences on web"
